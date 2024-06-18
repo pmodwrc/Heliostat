@@ -1,0 +1,67 @@
+site_name: Heliostat
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.tabs
+
+
+plugins:
+  - mkdocstrings
+  - tags
+  - git-revision-date-localized:
+      type: date
+  - git-authors
+
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Hardware: 
+    - Hardware overview: hardware_overview.md
+    - Actuators: hardware/actuators.md
+    - Sensors: hardware/sensors.md
+  - Installation Guide: 
+    - Overview: installation_guide/overview.md
+  - Reference:
+    - GUI Module: reference/gui.md
+    - Plot classes:
+      - Real time data: reference/real_time_data.md
+      - Diagnose: reference/diagnose.md
+      - 4Q Data: reference/fourq_data.md
+      - Motion parameters: reference/motion.md
+      - 2D/3D View: reference/spatial.md
+    - Worker classes:
+      - Worker Logger: reference/logger.md
+      - Worker Receiver: reference/receiver.md
+
+    - IO Module: reference/io.md
+    - PI Module: reference/pi.md
+    - PRM Module: reference/prm.md
+    - 4Q Module: reference/fourq.md 
+  
+repo_url: https://github.com/snowstorm26/Heliostat.git
+repo_name: snowstorm26/Heliostat
+
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
