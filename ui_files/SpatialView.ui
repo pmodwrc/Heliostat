@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>spatial_view</class>
+ <widget class="QWidget" name="spatial_view">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>708</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>671</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="three_dim"/>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>671</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="two_dim"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

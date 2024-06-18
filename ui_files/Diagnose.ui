@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>diagnose_parameters</class>
+ <widget class="QWidget" name="diagnose_parameters">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>479</width>
+    <height>441</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Diagnose</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>451</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="motor_primary"/>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>219</y>
+     <width>451</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="motor_secondary"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
